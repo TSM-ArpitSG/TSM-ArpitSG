@@ -1,9 +1,10 @@
 <!--
   ════════════════════════════════════════════════════════════════
-  GITHUB PROFILE README  →  goes in repo:  TSM-ArpitSG/TSM-ArpitSG
-  (create a PUBLIC repo named exactly "TSM-ArpitSG", add this as README.md)
-  Theme: dark neon (cyan #00E5FF + purple #7F00FF) on GitHub dark (#0d1117)
-  Looks best in GitHub DARK mode.
+  GITHUB PROFILE README  →  repo:  TSM-ArpitSG/TSM-ArpitSG
+  ROBUST EDITION — uses only image services that reliably load.
+  (Dropped github-readme-stats / trophy / streak / glitch-counter — their
+   free public servers were returning 503/402/410 errors.)
+  Theme: dark neon (cyan #00E5FF + purple #7F00FF). Best in GitHub dark mode.
   ════════════════════════════════════════════════════════════════
 -->
 
@@ -83,7 +84,7 @@ class ArpitSingh:
 
 </div>
 
-<!-- ░░░░░░░░░░ HOW I BUILD — native Mermaid diagram (renders on GitHub, no external service) ░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░ HOW I BUILD — native Mermaid diagram ░░░░░░░░░░ -->
 ## 🧠 How I Build
 
 ```mermaid
@@ -106,94 +107,55 @@ flowchart LR
     classDef leaf fill:#0d1117,stroke:#7F00FF,color:#c9d1d9;
 ```
 
-<!-- ░░░░░░░░░░ FEATURED PROJECTS ░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░ FEATURED PROJECTS (badge links — reliable) ░░░░░░░░░░ -->
 ## 🚀 Featured Projects
 
-<div align="center">
+[![TripCraft AI](https://img.shields.io/badge/🧳_TripCraft_AI-View_Repo-00E5FF?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)](https://github.com/TSM-ArpitSG/tripcraft-ai)
+&nbsp; AI trip-itinerary planner — JWT auth, day-by-day plans, budgets & hotel picks. &nbsp;`Next.js 15 · React 19 · Node · MongoDB · Gemini`
 
-<a href="https://github.com/TSM-ArpitSG/tripcraft-ai">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=TSM-ArpitSG&repo=tripcraft-ai&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=7F00FF" alt="TripCraft AI" />
-</a>
-<a href="https://github.com/TSM-ArpitSG/trao-weather-ai">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=TSM-ArpitSG&repo=trao-weather-ai&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=7F00FF" alt="Trao Weather AI" />
-</a>
+[![Trao Weather AI](https://img.shields.io/badge/🌦️_Trao_Weather_AI-View_Repo-00E5FF?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)](https://github.com/TSM-ArpitSG/trao-weather-ai)
+&nbsp; Multi-user weather dashboard with AI insights & a layered backend. &nbsp;`Next.js · TypeScript · Node · MongoDB · OpenWeather + Gemini`
 
-<a href="https://github.com/TSM-ArpitSG/Katyayani-Organics">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=TSM-ArpitSG&repo=Katyayani-Organics&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=7F00FF" alt="Katyayani Task Manager" />
-</a>
-<a href="https://github.com/TSM-ArpitSG/Harry-Potter-Wiki">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=TSM-ArpitSG&repo=Harry-Potter-Wiki&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=7F00FF" alt="Harry Potter Wiki" />
-</a>
+[![Task Manager](https://img.shields.io/badge/✅_Task_Manager-View_Repo-7F00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)](https://github.com/TSM-ArpitSG/Katyayani-Organics)
+&nbsp; Full-stack JWT task app with Redux state & glassmorphism UI. &nbsp;`React 18 · TS · Vite · Node · MongoDB`
 
-</div>
+[![Harry Potter Wiki](https://img.shields.io/badge/🪄_Harry_Potter_Wiki-View_Repo-7F00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)](https://github.com/TSM-ArpitSG/Harry-Potter-Wiki)
+&nbsp; Themed interactive web app. &nbsp;`HTML · CSS · JS`
 
-- 🧳 **TripCraft AI** — AI trip-itinerary planner with JWT auth, day-by-day plans, budgets & hotel picks. `Next.js 15 · React 19 · Node · MongoDB · Gemini`
-- 🌦️ **Trao Weather AI** — multi-user weather dashboard with AI insights & a layered backend. `Next.js · TypeScript · Node · MongoDB · OpenWeather + Gemini`
-- ✅ **Task Manager** — full-stack JWT task app with Redux state & glassmorphism UI. `React 18 · TS · Vite · Node · MongoDB`
-- 🪄 **Harry Potter Wiki** — themed interactive web app. `HTML · CSS · JS`
-- 🎮 **Unity Games** — *Shooting Impulse* (2D shooter, adaptive difficulty) & *Coin Collector* (2D arcade). `Unity · C#`
+> 🎮 **Unity Games** — *Shooting Impulse* (2D shooter with adaptive difficulty) & *Coin Collector* (2D arcade). `Unity · C#`
 
-<!-- ░░░░░░░░░░ GITHUB STATS ░░░░░░░░░░ -->
-## 📊 GitHub Stats
+<!-- ░░░░░░░░░░ STATS & LANGUAGES (summary-cards — reliable) ░░░░░░░░░░ -->
+## 📊 GitHub Stats & Languages
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=TSM-ArpitSG&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=7F00FF" alt="stats" />
-<img height="175" src="https://github-readme-streak-stats.demolab.com/?user=TSM-ArpitSG&theme=tokyonight&hide_border=true&background=0d1117&ring=00E5FF&fire=7F00FF&currStreakLabel=00E5FF" alt="streak" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TSM-ArpitSG&theme=tokyonight" alt="profile details" />
 
-<br>
-
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TSM-ArpitSG&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&langs_count=10" alt="top languages" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TSM-ArpitSG&theme=tokyonight" alt="repos per language" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TSM-ArpitSG&theme=tokyonight" alt="most commit language" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=TSM-ArpitSG&theme=tokyonight&utcOffset=5.5" alt="productive time" />
 
 </div>
 
-<!-- OPTIONAL — lowlighter/metrics isometric infographic.
-     After you set up metrics.yml (needs a METRICS_TOKEN secret), remove this comment wrapper to show it:
-<div align="center">
-<img width="98%" src="https://raw.githubusercontent.com/TSM-ArpitSG/TSM-ArpitSG/main/github-metrics.svg" alt="metrics" />
-</div>
--->
-
-<!-- ░░░░░░░░░░ ACTIVITY GRAPH ░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░ CONTRIBUTION GRAPH ░░░░░░░░░░ -->
 ## 📈 Contribution Graph
 
 <div align="center">
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=TSM-ArpitSG&bg_color=0d1117&color=00E5FF&line=7F00FF&point=ffffff&area=true&hide_border=true" alt="activity graph" />
 </div>
 
-<!-- ░░░░░░░░░░ 3D CONTRIBUTION CALENDAR (yoshi389111 action) ░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░ 3D CONTRIBUTION CALENDAR (your own repo) ░░░░░░░░░░ -->
 ## 🧊 3D Contribution Calendar
 
 <div align="center">
 <img width="98%" src="https://raw.githubusercontent.com/TSM-ArpitSG/TSM-ArpitSG/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3d contributions" />
 </div>
 
-<!-- ░░░░░░░░░░ TROPHIES ░░░░░░░░░░ -->
-## 🏆 Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=TSM-ArpitSG&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="trophies" />
-</div>
-
-<!-- ░░░░░░░░░░ SNAKE ░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░ SNAKE (your own repo) ░░░░░░░░░░ -->
 ## 🐍 Watch the Snake Eat My Contributions
 
 <div align="center">
 <img width="98%" src="https://raw.githubusercontent.com/TSM-ArpitSG/TSM-ArpitSG/output/github-snake-dark.svg" alt="snake animation" />
-</div>
-
-<!-- ░░░░░░░░░░ PROFILE SUMMARY ░░░░░░░░░░ -->
-## 🧾 Profile Summary
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TSM-ArpitSG&theme=tokyonight" alt="profile details" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TSM-ArpitSG&theme=tokyonight" alt="repos per language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TSM-ArpitSG&theme=tokyonight" alt="most commit language" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=TSM-ArpitSG&theme=tokyonight&utcOffset=5.5" alt="productive time" />
-
 </div>
 
 <!-- ░░░░░░░░░░ DEV QUOTE ░░░░░░░░░░ -->
@@ -215,11 +177,6 @@ flowchart LR
 <br><br>
 
 <i>💬 Open to remote / MP-based SDE & full-stack roles — let's talk!</i>
-
-<br><br>
-
-<!-- retro visitor counter (community comeback) -->
-<img src="https://profile-counter.glitch.me/TSM-ArpitSG/count.svg" alt="visitor counter" />
 
 </div>
 
