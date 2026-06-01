@@ -1,0 +1,39 @@
+# ════════════════════════════════════════════════════════════════
+#  3D CONTRIBUTION CALENDAR
+#  → put this file at:  .github/workflows/3d-contrib.yml
+#     (inside the TSM-ArpitSG/TSM-ArpitSG repo)
+#  Generates an isometric 3D contribution image daily and commits it to
+#  profile-3d-contrib/ — which the README points to.
+#  After adding it: Actions tab → "3D Contrib" → Run workflow (first run).
+# ════════════════════════════════════════════════════════════════
+name: 3D Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # daily, 18:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          git commit -m "chore: update 3D contribution calendar" || echo "no changes"
+          git push
